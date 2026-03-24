@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mannat Kumar | Django Full Stack Developer</title>
+    <meta name="description" content="Professional portfolio of Mannat Kumar, Django Full Stack Developer building robust web applications.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Fonts: Inter and Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Icons (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header / Navbar -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">Mannat<span>xdev</span></a>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certifications</a></li>
+                <li><a href="#experience" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="https://drive.google.com/file/d/1q63aJJZcVCeVMRfy8bbY_ssyxti_ueqW/view?usp=drive_link" class="btn-outline" target="_blank">Resume</a>
+                <button class="hamburger"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-profile reveal">
+                <!-- Circular glowing profile -->
+                <img src="myphoto1.jpg" alt="Mannat Kumar">
+            </div>
+            
+            <h1 class="reveal">Mannat Kumar</h1>
+            <p class="role reveal">Django Full Stack Developer</p>
+            
+            <p class="summary reveal">
+                I build robust web applications with Django. Specializing in Python, I create secure, scalable backend architectures and integrate them with dynamic, responsive frontend interfaces to deliver complete web solutions.
+            </p>
+
+            <div class="hero-tags reveal">
+                <span class="tag"><i class="fab fa-python"></i> Python</span>
+                <span class="tag"><i class="fas fa-server"></i> Django</span>
+                <span class="tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="tag"><i class="fab fa-aws"></i> AWS</span>
+            </div>
+
+            <div class="hero-cta reveal">
+                <a href="#contact" class="btn-primary">Let's Connect</a>
+                <a href="#projects" class="btn-outline">View Projects</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title reveal">About <span>Me</span></h2>
+            
+            <div class="about-grid">
+                <div class="about-content reveal">
+                    <div class="about-text">
+                        <p>Hello! My name is Mannat and I enjoy creating things that live on the internet. My interest in web development started when I built my first dynamic application using Python and Django.</p>
+                        <p>Fast forward to today, and I've had the privilege of working at a fast-paced start-up, a large corporation, and on several open-source projects. My main focus these days is architecting robust Django backends and seamless full-stack applications.</p>
+                        <p>I aim to join a forward-thinking company where I can build impactful end-to-end applications and continue growing as a developer.</p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-box">
+                            <h3>10+</h3>
+                            <p>Projects Built</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>10+</h3>
+                            <p>DB Schemas Configured</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>Top 50</h3>
+                            <p>SIH (Internal LPU)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card-wrapper reveal">
+                    <div class="about-card">
+                        <p>"Simplicity is the prerequisite for reliability. Building scalable systems starts with clean architecture."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title reveal">Technical <span>Expertise</span></h2>
+            
+            <div class="skills-grid">
+                
+                <div class="skill-category reveal">
+                    <div class="skill-icon-wrap"><i class="fas fa-code"></i></div>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>SQL</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Bash / Shell</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-icon-wrap"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Frameworks & Libraries</h3>
+                    <ul>
+                        <li>Django</li>
+                        <li>Django REST Framework</li>
+                        <li>React.js</li>
+                        <li>Vue.js</li>
+                        <li>Bootstrap / Tailwind</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-icon-wrap"><i class="fas fa-cloud"></i></div>
+                    <h3>Tools & Cloud</h3>
+                    <ul>
+                        <li>PostgreSQL & MySQL</li>
+                        <li>Docker</li>
+                        <li>AWS Services</li>
+                        <li>Celery & Redis</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-icon-wrap"><i class="fas fa-users"></i></div>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Agile & Scrum</li>
+                        <li>Adaptability</li>
+                        <li>Clear Communication</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="projects-header reveal">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <a href="https://github.com/mannatxdev" target="_blank" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" alt="Shahiledger">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <h3>Shahiledger</h3>
+                        <p>A full-stack Django application designed to handle ledger management effectively. Features secure user authentication, robust remote databases, and seamless transaction tracking.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/mannatxdev/shahiledger" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/mannatxdev/shahiledger" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800" alt="formX">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>Frontend Templates</span>
+                        </div>
+                        <h3>formX</h3>
+                        <p>A dynamic form-building utility using Django to ease the process of generating complex frontend forms dynamically with extensive configuration options.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/mannatxdev/formX" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/mannatxdev/formX" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800" alt="gaudiango">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>Web Architecture</span>
+                        </div>
+                        <h3>gaudiango</h3>
+                        <p>A specialized Django template application showcasing modern web architectural patterns and best practices for scaling large applications efficiently.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/mannatxdev/gaudiango" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800" alt="Student Management System">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>SQLite</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <h3>Student Management System</h3>
+                        <p>A comprehensive system to manage student records, attendances, and academic performances effectively with an intuitive dashboard.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/mannatxdev/student-management" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <h2 class="section-title reveal">Licenses & <span>Certifications</span></h2>
+            
+            <div class="certs-grid">
+                
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                    <div class="cert-info">
+                        <h4>AWS Certified Developer - Associate</h4>
+                        <p>Amazon Web Services (AWS)</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+                    <div class="cert-info">
+                        <h4>Cloud Computing</h4>
+                        <p>NPTEL</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fab fa-android"></i></div>
+                    <div class="cert-info">
+                        <h4>Android App Development</h4>
+                        <p>GeeksforGeeks</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education / Timeline -->
+        <section id="experience">
+            <h2 class="section-title reveal">My <span>Education</span></h2>
+            
+            <div class="timeline">
+                
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">August 2023 - May 2027</span>
+                        <h3>Lovely Professional University</h3>
+                        <h4>Punjab, India</h4>
+                        <p>Bachelor of Technology - Computer Science and Engineering;<br><strong>CGPA: 7.02</strong></p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2021 - March 2023</span>
+                        <h3>Sunshine Prep High School</h3>
+                        <h4>Muzaffarpur, Bihar</h4>
+                        <p>Intermediate (PCM);<br><strong>Percentage: 62%</strong></p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fas fa-book"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2019 - March 2021</span>
+                        <h3>Vikas – The concept School</h3>
+                        <h4>Hyderabad</h4>
+                        <p>Matriculation;<br><strong>Percentage: 72%</strong></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+            
+            <div class="contact-container">
+                
+                <div class="contact-info reveal">
+                    <h3 class="contact-header">Let's build something epic together.</h3>
+                    <p style="margin-bottom: 2.5rem;">I'm currently looking for new opportunities, specifically graduate roles and internships. My inbox is always open!</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Me</h4>
+                            <p>mannatkumar843@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Muzaffarpur, Bihar</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/mannatxdev" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mannat-kumar-4b9862290/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal">
+                    <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Form submitted!');">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="shreya" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" placeholder="shreya@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-submit">Send Message <i class="fas fa-paper-plane" style="margin-left:8px;"></i></button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Built and designed by Mannat Kumar. Recreated aesthetic 2026.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
